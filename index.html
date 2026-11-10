@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PetaNote サポート</title>
+<meta name="description" content="手書きメモアプリ PetaNote のサポートページです。使い方とお問い合わせ先をご案内します。">
+<style>
+  :root {
+    --bg: #faf7f1;
+    --card: #ffffff;
+    --text: #1f2a2a;
+    --muted: #5f6b6b;
+    --accent: #0f7f7a;
+    --line: #e4dfd5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141a1a;
+      --card: #1c2424;
+      --text: #eef2f1;
+      --muted: #a3b0af;
+      --accent: #4fc4bd;
+      --line: #2c3636;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif;
+    line-height: 1.8;
+    -webkit-text-size-adjust: 100%;
+  }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 56px 20px 40px;
+  }
+  header p { color: var(--muted); margin: 4px 0 0; }
+  h1 { font-size: 1.9rem; margin: 0; letter-spacing: 0.02em; }
+  h2 {
+    font-size: 1.15rem;
+    margin: 0 0 12px;
+    color: var(--accent);
+  }
+  section {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 22px 22px 18px;
+    margin-top: 22px;
+  }
+  ol, ul { margin: 0; padding-left: 1.3em; }
+  li { margin-bottom: 6px; }
+  dl { margin: 0; }
+  dt { font-weight: 600; margin-top: 14px; }
+  dt:first-child { margin-top: 0; }
+  dd { margin: 4px 0 0; color: var(--muted); }
+  a { color: var(--accent); }
+  .mail { font-size: 1.05rem; font-weight: 600; word-break: break-all; }
+  footer {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 20px 48px;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  footer a { margin-right: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>PetaNote サポート</h1>
+    <p>手書きのメモを、ホーム画面のウィジェットに。</p>
+  </header>
+
+  <section>
+    <h2>PetaNote について</h2>
+    <p style="margin:0">PetaNote は、指や Apple Pencil で手書きのメモを作成し、選んだメモをホーム画面のウィジェットに表示できるアプリです。アカウント登録やログインは必要ありません。</p>
+  </section>
+
+  <section>
+    <h2>使い方</h2>
+    <ol>
+      <li>画面右上のボタンをタップして、新しいメモを作成します。</li>
+      <li>指、または対応する iPad の Apple Pencil で書きます。内容は自動で保存されます。</li>
+      <li>メモ一覧でカードを長押しし、「ウィジェットに表示」を選びます。</li>
+      <li>ホーム画面を長押しして PetaNote のウィジェットを追加すると、選んだメモが表示されます。</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>よくある質問</h2>
+    <dl>
+      <dt>ウィジェットにメモが表示されません</dt>
+      <dd>メモ一覧でカードを長押しし、「ウィジェットに表示」を選んでください。反映まで少し時間がかかる場合があります。</dd>
+      <dt>メモを削除するには</dt>
+      <dd>メモ一覧でカードを長押しし、「削除」を選んでください。削除したメモは元に戻せません。</dd>
+      <dt>メモはどこに保存されますか</dt>
+      <dd>お使いの端末の中にのみ保存されます。開発者や外部のサーバーに送信されることはありません。</dd>
+      <dt>アプリを削除するとメモはどうなりますか</dt>
+      <dd>アプリを削除すると、端末内のメモも一緒に削除されます。</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>お問い合わせ</h2>
+    <p style="margin:0 0 8px">不具合のご報告やご要望は、下記のメールアドレスまでお送りください。</p>
+    <p class="mail" style="margin:0"><a href="mailto:toma191@outlook.jp">toma191@outlook.jp</a></p>
+    <p style="margin:10px 0 0;color:var(--muted);font-size:0.92rem">お使いの機種と iOS のバージョンを添えていただくと、確認がスムーズです。</p>
+  </section>
+</main>
+
+<footer>
+  <p><a href="privacy.html">プライバシーポリシー</a></p>
+  <p>© 2026 Tomoaki Koga</p>
+</footer>
+</body>
+</html>
